@@ -1,0 +1,31 @@
+{
+  "name": "css-prettier",
+  "version": "0.0.2",
+  "description": "a plugin to beautify html file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cssPrettier": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxforever/css-prettier.git"
+  },
+  "keywords": [
+    "beautify",
+    "html"
+  ],
+  "author": "ng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wxforever/css-prettier/issues"
+  },
+  "homepage": "https://github.com/wxforever/css-prettier/blob/master/README.md",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "cssdom": "^1.0.21",
+    "file-system": "^2.2.2"
+  }
+}
